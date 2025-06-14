@@ -3,6 +3,11 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 from dotenv import load_dotenv
+import pkg_resources
+print("📦 INSTALLED PACKAGES:")
+for dist in pkg_resources.working_set:
+    print(f"🔹 {dist.project_name}=={dist.version}")
+
 
 print("🚀 Booting RPEngine Main - No Voice Version")
 
