@@ -1,0 +1,1 @@
+# Placeholder for on_ready.py
